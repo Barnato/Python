@@ -1,20 +1,22 @@
 Python If-Else
 
 Task
-Given an integer, n, perform the following conditional actions:
-If n is odd, print Weird
-If n is even and in the inclusive range of 2 to 5, print Not Weird
-If n is even and in the inclusive range of 6 to 20, print Weird
-If n is even and greater than , print Not Weird
+Given an integer, *n* , perform the following conditional actions:
+If *n* is odd, print Weird
+If *n* is even and in the inclusive range of 2 to 5, print Not Weird
+If *n* is even and in the inclusive range of 6 to 20, print Weird
+If *n* is even and greater than , print Not Weird
 
 #!/bin/python
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# Enter your code here. Read input from STDIN (standard out). When you run your Python program, sys.stdin is the file object connected to standard input (STDIN). Print output to STDOUT
 N = int(raw_input())
 
 Solution
-
+# A number is even if it is perfectly divisible by 2. When the number is divided by 2, we use the remainder operator % to compute the remainder. If the remainder is not zero, the number is odd.
 if N % 2 == 1: print("Weird")
+# The elif statement allows you to check multiple expressions for TRUE and execute a block of code as soon as one of the conditions evaluates to TRUE.
+# >= If the value of left operand is greater than or equal to the value of right operand, then condition becomes true and with >= if the value of left operand is greater than or equal to the value of right operand, then condition becomes true.
 elif N % 2 == 0 and N >=2 and N <=5: print("Not Weird")
 elif N % 2 == 0 and N >=6 and N <=20: print("Weird")
 elif N % 2 == 0 and N > 20: print("Not Weird")

@@ -8,18 +8,20 @@ The first line contains the first integer, . The second line contains the second
 
 Solution
 
+# the __future__ module is used to make functionality available in the current version of Python even though it will only be officially introduced in a future version.
 from __future__ import division
 
+# it sets a few special variables like __name__, and then it executes all of the code found in the file.
 if __name__ == '__main__':
+  # The "input" function converts the input you enter as if it were python code. "raw_input" doesn't convert the input and takes the input as it is given.
+
     a = int(raw_input())
     b = int(raw_input())
-
-
 
 a = 4
 b = 3
 
-
 print(a//b)
 
+# float Numbers written with a decimal point dividing the integer and fractional parts
 print float (a / b)

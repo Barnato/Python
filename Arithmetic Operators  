@@ -1,0 +1,31 @@
+Arithmetic Operators
+
+Test case 1
+
+Read two integers from STDIN and print three lines where:
+The first line contains the sum of the two numbers.
+The second line contains the difference of the two numbers (first - second).
+The third line contains the product of the two numbers.
+Input Format
+The first line contains the first integer, . The second line contains the second integer, .
+
+Solution
+
+#Whenever the Python interpreter reads a source file, it does two things: it sets a few special variables like __name__, and then it executes all of the code found in the file.
+   #Take integer input from the user.
+    a = int(raw_input())
+    b = int(raw_input())
+#defined varaible with a+b
+x = a+b
+#defined varaible with a-b
+y = a-b
+#defined varaible with y+x
+z = y+x
+#print output
+print x
+#print output
+print y
+#print output
+print z
+
+Test case 2 

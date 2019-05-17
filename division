@@ -1,0 +1,28 @@
+Python: Division
+
+Task
+Read two integers and print two lines.
+
+The first line should contain integer division,  a // b. The second line should contain float division,  / .
+You don't need to perform any rounding or formatting operations.
+
+Solution:
+
+# __future__ is a pseudo-module which programmers can use to enable new language features which are not compatible with the current interpreter. 
+
+#if_name_ is a variable '_main_' is hard coded strong assigned by interpt to variables. Once variables set up the interp executives code in the module, one statement at a time. vVriables are storage placeholder for text and numbers, variable is always assigned with the equal sign followed by the value of the variable
+
+
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+
+
+
+a = 4
+b = 3
+
+
+print(a//b)
+
+print float (a/b)

@@ -1,13 +1,10 @@
 Loops
 
-Read an integer . For all non-negative integers , print . See the sample for details.
+Read an integer N. For all non-negative integers i < N, print i2. See the sample for details.
 
-Input Format
+First solution
 
-The first and only line contains the integer, .
-
-Constraints
-
+The first and only line contains the integer, N.
 
 Output Format
 
@@ -18,3 +15,11 @@ if __name__ == '__main__':
 y = range(n)
 for x in y:
   print(x*x)
+
+Alternative solution
+
+if __name__ == '__main__':
+    n = int(input())
+
+answer = [x*x for x in range(0, n)]
+print(*answer, sep = "\n")

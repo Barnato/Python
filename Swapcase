@@ -1,3 +1,4 @@
 def swap_case(s):
+    # swapcase() returns a copy of the string in which all the case-based characters have had their case swapped
     x = s.swapcase()
     return x

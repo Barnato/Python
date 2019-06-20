@@ -16,5 +16,9 @@ Output Format
 Output the answer as explained in the task.
 
 if __name__ == '__main__':
+    # read inputs as numbers
     n = int(input())
+    # the * operator can be used to unpack an iterable
+    # range(start_value, end_value, step)
+    # sep=' ' remote whitespaces, as the default is whitespaces
 x = print(*range(1,n+1), sep='')

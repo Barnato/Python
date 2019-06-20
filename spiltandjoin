@@ -1,0 +1,4 @@
+def split_and_join(line):
+    # Return statement causes function to exit and hand back a value to its callerspilt on an empty space and join on a hyphen.
+ return "-".join(line.split())
+if __name__ == '__main__':
